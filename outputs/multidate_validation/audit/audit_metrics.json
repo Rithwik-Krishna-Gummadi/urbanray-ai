@@ -1,0 +1,31 @@
+{
+  "original_archive": "UrbanRay_MultiDate_Validation.zip",
+  "scene_count": 10,
+  "development_scene_count": 5,
+  "heldout_scene_count": 5,
+  "paired_30m_grid_records": 272,
+  "distinct_acquisition_dates": 10,
+  "calibration_additive_bias_C": -1.4311026426536195,
+  "development_raw": {
+    "n": 5,
+    "MAE_C": 2.433196967817957,
+    "RMSE_C": 3.130793174081108,
+    "Bias_C": 1.4311026426536189
+  },
+  "heldout_raw": {
+    "n": 5,
+    "MAE_C": 3.5261483184561713,
+    "RMSE_C": 4.061382050634691,
+    "Bias_C": 3.5261483184561713
+  },
+  "heldout_bias_corrected": {
+    "n": 5,
+    "MAE_C": 2.3413728337847814,
+    "RMSE_C": 2.906943167859553,
+    "Bias_C": 2.0950456758025537
+  },
+  "heldout_MAE_reduction_pct": 33.59970646924211,
+  "mean_heldout_landsat_ST_QA_K": 3.0342734099616857,
+  "data_integrity": "Differences and additive correction recomputed and verified from submitted CSVs",
+  "scientific_status": "Exploratory scene-level Landsat vs simplified radiative proxy. NOT observed-roof validation. Raw weather, face-level model outputs, per-pixel matches, model execution logs absent from this ZIP."
+}

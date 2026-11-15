@@ -1,0 +1,124 @@
+{
+  "simulation": "88 real NYC footprint polygon prisms, approximate physics, assumed materials",
+  "core_buildings": 88,
+  "context_included": false,
+  "total_buildings_simulated": 88,
+  "face_count": 2082,
+  "geometry_sha256": "b69d40721de0523836ed8dd2ce13204e8f9100bbc9f2327121a19c9e6466b0b3",
+  "context_geojson_sha256": null,
+  "geometry_historical_limit": "2026 snapshot; not guaranteed correct for each weather date",
+  "weather_file": "nyc_weather_2025_06_18_to25.csv",
+  "weather_source": "Open-Meteo archive file with matching provenance",
+  "weather_provenance_verified": true,
+  "weather_sha256": "7265ba7080c480ff501fe74ff6518dc60f990e3d93eaadcab7fbcc99f394822d",
+  "warmup_hours": 48,
+  "evaluated_hours": 96,
+  "sun_location_latitude": 40.753,
+  "sun_location_longitude": -73.98670000000001,
+  "operator": {
+    "rays_per_surface": 8,
+    "seed": 44,
+    "num_patches": 2082,
+    "nonzero_links": 14364,
+    "max_reciprocity_power_area_residual_m2": 5.684341886080802e-14,
+    "sky_fraction_area_weighted": 0.4261711957563363,
+    "source": "geometric Monte Carlo + area reciprocity symmetrization"
+  },
+  "shadow_samples": 4,
+  "bounces": 3,
+  "materials_assumed": {
+    "roof": {
+      "alpha": 0.18,
+      "emissivity": 0.91,
+      "k": 0.85,
+      "volume_heat_capacity": 1550000.0,
+      "skin_depth_m": 0.065,
+      "substrate_depth_m": 0.25,
+      "backside_h": 0.9
+    },
+    "wall": {
+      "alpha": 0.3,
+      "emissivity": 0.92,
+      "k": 1.25,
+      "volume_heat_capacity": 1800000.0,
+      "skin_depth_m": 0.09,
+      "substrate_depth_m": 0.3,
+      "backside_h": 1.0
+    },
+    "ground": {
+      "alpha": 0.12,
+      "emissivity": 0.95,
+      "k": 0.76,
+      "volume_heat_capacity": 1650000.0,
+      "skin_depth_m": 0.11,
+      "substrate_depth_m": 0.45,
+      "backside_h": 0.5
+    }
+  },
+  "scenario_names": [
+    "dark_roof",
+    "reflective_roof"
+  ],
+  "scenario_assumed_materials": {
+    "dark_roof": {
+      "roof": {
+        "alpha": 0.18,
+        "emissivity": 0.91,
+        "k": 0.85,
+        "volume_heat_capacity": 1550000.0,
+        "skin_depth_m": 0.065,
+        "substrate_depth_m": 0.25,
+        "backside_h": 0.9
+      },
+      "wall": {
+        "alpha": 0.3,
+        "emissivity": 0.92,
+        "k": 1.25,
+        "volume_heat_capacity": 1800000.0,
+        "skin_depth_m": 0.09,
+        "substrate_depth_m": 0.3,
+        "backside_h": 1.0
+      },
+      "ground": {
+        "alpha": 0.12,
+        "emissivity": 0.95,
+        "k": 0.76,
+        "volume_heat_capacity": 1650000.0,
+        "skin_depth_m": 0.11,
+        "substrate_depth_m": 0.45,
+        "backside_h": 0.5
+      }
+    },
+    "reflective_roof": {
+      "roof": {
+        "alpha": 0.58,
+        "emissivity": 0.91,
+        "k": 0.85,
+        "volume_heat_capacity": 1550000.0,
+        "skin_depth_m": 0.065,
+        "substrate_depth_m": 0.25,
+        "backside_h": 0.9
+      },
+      "wall": {
+        "alpha": 0.3,
+        "emissivity": 0.92,
+        "k": 1.25,
+        "volume_heat_capacity": 1800000.0,
+        "skin_depth_m": 0.09,
+        "substrate_depth_m": 0.3,
+        "backside_h": 1.0
+      },
+      "ground": {
+        "alpha": 0.12,
+        "emissivity": 0.95,
+        "k": 0.76,
+        "volume_heat_capacity": 1650000.0,
+        "skin_depth_m": 0.11,
+        "substrate_depth_m": 0.45,
+        "backside_h": 0.5
+      }
+    }
+  },
+  "surface_temperature_accuracy": "NOT independently established",
+  "water_evaporation_and_tree_canopies": "NOT included without verified geometry/material inputs"
+}

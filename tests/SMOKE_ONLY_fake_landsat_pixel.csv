@@ -1,0 +1,2 @@
+scene_id,acquisition_utc,projection_crs,projection_affine,center_lon,center_lat,lst_c,st_uncertainty_k,cloud_distance_km,qa_pixel,qa_radsat,retrieval_emissivity
+SMOKE_ONLY_NOT_REAL_LANDSAT,2025-06-20T15:30:00Z,EPSG:32618,30;0;585000;0;-30;4512000,-73.98681980948676,40.75298208190928,34,1.2,5,64,0,0.93

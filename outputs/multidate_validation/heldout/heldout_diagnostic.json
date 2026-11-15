@@ -1,0 +1,31 @@
+{
+  "status": "EXPLORATORY_SCENE_LEVEL_DIAGNOSTIC_NOT_REAL_ROOF_VALIDATION",
+  "calibration_dates": [
+    "2025-04-23",
+    "2025-05-26",
+    "2025-06-03",
+    "2025-06-11",
+    "2025-07-21"
+  ],
+  "heldout_dates": [
+    "2026-05-12",
+    "2026-06-05",
+    "2026-06-13",
+    "2026-07-08",
+    "2026-07-24"
+  ],
+  "calibration_scene_count": 5,
+  "test_scene_count": 5,
+  "calibration_additive_bias_C": -1.4311026426536195,
+  "heldout_raw": {
+    "MAE_C": 3.5261483184561735,
+    "RMSE_C": 4.061382050634692,
+    "mean_bias_C": 3.5261483184561735
+  },
+  "heldout_bias_corrected": {
+    "MAE_C": 2.3413728337847806,
+    "RMSE_C": 2.906943167859553,
+    "mean_bias_C": 2.0950456758025533
+  },
+  "warning": "These are Landsat grid retrieval vs simplified emission proxy residuals, not certified surface-temperature accuracy; thermal pixels remain spatially correlated."
+}

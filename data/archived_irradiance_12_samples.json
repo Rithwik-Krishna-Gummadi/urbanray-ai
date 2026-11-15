@@ -1,0 +1,182 @@
+[
+  {
+    "time_local": "2025-06-21T10:00:00-04:00",
+    "dni_Wm2": 836.9,
+    "dhi_Wm2": 130.8,
+    "source": "https://archive-api.open-meteo.com/v1/archive",
+    "source_type": "modeled gridded historical irradiance",
+    "request_parameters": {
+      "latitude": 40.753,
+      "longitude": -73.9868,
+      "start_date": "2025-06-21",
+      "end_date": "2025-06-21",
+      "hourly": "direct_normal_irradiance_instant,diffuse_radiation_instant",
+      "timezone": "America/New_York"
+    }
+  },
+  {
+    "time_local": "2025-06-21T12:00:00-04:00",
+    "dni_Wm2": 817.7,
+    "dhi_Wm2": 134.0,
+    "source": "https://archive-api.open-meteo.com/v1/archive",
+    "source_type": "modeled gridded historical irradiance",
+    "request_parameters": {
+      "latitude": 40.753,
+      "longitude": -73.9868,
+      "start_date": "2025-06-21",
+      "end_date": "2025-06-21",
+      "hourly": "direct_normal_irradiance_instant,diffuse_radiation_instant",
+      "timezone": "America/New_York"
+    }
+  },
+  {
+    "time_local": "2025-06-21T14:00:00-04:00",
+    "dni_Wm2": 699.0,
+    "dhi_Wm2": 138.7,
+    "source": "https://archive-api.open-meteo.com/v1/archive",
+    "source_type": "modeled gridded historical irradiance",
+    "request_parameters": {
+      "latitude": 40.753,
+      "longitude": -73.9868,
+      "start_date": "2025-06-21",
+      "end_date": "2025-06-21",
+      "hourly": "direct_normal_irradiance_instant,diffuse_radiation_instant",
+      "timezone": "America/New_York"
+    }
+  },
+  {
+    "time_local": "2025-07-15T10:00:00-04:00",
+    "dni_Wm2": 385.5,
+    "dhi_Wm2": 290.4,
+    "source": "https://archive-api.open-meteo.com/v1/archive",
+    "source_type": "modeled gridded historical irradiance",
+    "request_parameters": {
+      "latitude": 40.753,
+      "longitude": -73.9868,
+      "start_date": "2025-07-15",
+      "end_date": "2025-07-15",
+      "hourly": "direct_normal_irradiance_instant,diffuse_radiation_instant",
+      "timezone": "America/New_York"
+    }
+  },
+  {
+    "time_local": "2025-07-15T12:00:00-04:00",
+    "dni_Wm2": 505.5,
+    "dhi_Wm2": 276.6,
+    "source": "https://archive-api.open-meteo.com/v1/archive",
+    "source_type": "modeled gridded historical irradiance",
+    "request_parameters": {
+      "latitude": 40.753,
+      "longitude": -73.9868,
+      "start_date": "2025-07-15",
+      "end_date": "2025-07-15",
+      "hourly": "direct_normal_irradiance_instant,diffuse_radiation_instant",
+      "timezone": "America/New_York"
+    }
+  },
+  {
+    "time_local": "2025-07-15T14:00:00-04:00",
+    "dni_Wm2": 655.7,
+    "dhi_Wm2": 158.9,
+    "source": "https://archive-api.open-meteo.com/v1/archive",
+    "source_type": "modeled gridded historical irradiance",
+    "request_parameters": {
+      "latitude": 40.753,
+      "longitude": -73.9868,
+      "start_date": "2025-07-15",
+      "end_date": "2025-07-15",
+      "hourly": "direct_normal_irradiance_instant,diffuse_radiation_instant",
+      "timezone": "America/New_York"
+    }
+  },
+  {
+    "time_local": "2025-08-16T10:00:00-04:00",
+    "dni_Wm2": 685.0,
+    "dhi_Wm2": 172.1,
+    "source": "https://archive-api.open-meteo.com/v1/archive",
+    "source_type": "modeled gridded historical irradiance",
+    "request_parameters": {
+      "latitude": 40.753,
+      "longitude": -73.9868,
+      "start_date": "2025-08-16",
+      "end_date": "2025-08-16",
+      "hourly": "direct_normal_irradiance_instant,diffuse_radiation_instant",
+      "timezone": "America/New_York"
+    }
+  },
+  {
+    "time_local": "2025-08-16T12:00:00-04:00",
+    "dni_Wm2": 682.3,
+    "dhi_Wm2": 179.7,
+    "source": "https://archive-api.open-meteo.com/v1/archive",
+    "source_type": "modeled gridded historical irradiance",
+    "request_parameters": {
+      "latitude": 40.753,
+      "longitude": -73.9868,
+      "start_date": "2025-08-16",
+      "end_date": "2025-08-16",
+      "hourly": "direct_normal_irradiance_instant,diffuse_radiation_instant",
+      "timezone": "America/New_York"
+    }
+  },
+  {
+    "time_local": "2025-08-16T14:00:00-04:00",
+    "dni_Wm2": 439.4,
+    "dhi_Wm2": 217.8,
+    "source": "https://archive-api.open-meteo.com/v1/archive",
+    "source_type": "modeled gridded historical irradiance",
+    "request_parameters": {
+      "latitude": 40.753,
+      "longitude": -73.9868,
+      "start_date": "2025-08-16",
+      "end_date": "2025-08-16",
+      "hourly": "direct_normal_irradiance_instant,diffuse_radiation_instant",
+      "timezone": "America/New_York"
+    }
+  },
+  {
+    "time_local": "2025-09-15T10:00:00-04:00",
+    "dni_Wm2": 782.9,
+    "dhi_Wm2": 144.0,
+    "source": "https://archive-api.open-meteo.com/v1/archive",
+    "source_type": "modeled gridded historical irradiance",
+    "request_parameters": {
+      "latitude": 40.753,
+      "longitude": -73.9868,
+      "start_date": "2025-09-15",
+      "end_date": "2025-09-15",
+      "hourly": "direct_normal_irradiance_instant,diffuse_radiation_instant",
+      "timezone": "America/New_York"
+    }
+  },
+  {
+    "time_local": "2025-09-15T12:00:00-04:00",
+    "dni_Wm2": 835.8,
+    "dhi_Wm2": 115.7,
+    "source": "https://archive-api.open-meteo.com/v1/archive",
+    "source_type": "modeled gridded historical irradiance",
+    "request_parameters": {
+      "latitude": 40.753,
+      "longitude": -73.9868,
+      "start_date": "2025-09-15",
+      "end_date": "2025-09-15",
+      "hourly": "direct_normal_irradiance_instant,diffuse_radiation_instant",
+      "timezone": "America/New_York"
+    }
+  },
+  {
+    "time_local": "2025-09-15T14:00:00-04:00",
+    "dni_Wm2": 720.7,
+    "dhi_Wm2": 104.0,
+    "source": "https://archive-api.open-meteo.com/v1/archive",
+    "source_type": "modeled gridded historical irradiance",
+    "request_parameters": {
+      "latitude": 40.753,
+      "longitude": -73.9868,
+      "start_date": "2025-09-15",
+      "end_date": "2025-09-15",
+      "hourly": "direct_normal_irradiance_instant,diffuse_radiation_instant",
+      "timezone": "America/New_York"
+    }
+  }
+]

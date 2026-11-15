@@ -1,0 +1,19 @@
+{
+  "geometry_sha256": "b69d40721de0523836ed8dd2ce13204e8f9100bbc9f2327121a19c9e6466b0b3",
+  "buildings": 88,
+  "ray_counts": [
+    4,
+    8,
+    16,
+    32
+  ],
+  "seeds": [
+    44,
+    76
+  ],
+  "irradiance": "archived sample from previous project, NOT refetched this turn",
+  "meaning": "Monte Carlo repeatability, not accuracy versus measured temperature",
+  "source_datetime": "2025-06-21T12:00:00-04:00",
+  "source_dni": 817.7,
+  "source_dhi": 134.0
+}
